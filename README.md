@@ -508,7 +508,7 @@ axios(options)
 ### Next level: saved requests!
 
 Imagine that you are **scraping Amazon products** for your website and that you plan to **get income from affilation**, you will need to watch out for Amazon\'s product page **HTML structure changes**. the best practice is to combine **HTML parsing** and **saved request** features for a 99.99% uptime scraping system.
-  - **sign-in** to your WINTR dashboard querybuilder **[in here](https://www.wintr.com/)**
+  - **sign-in** to your WINTR dashboard querybuilder **[in here](https://www.wintr.com/dashboard-querybuilder)**
   - **create the Amazon scraping request** on a product list page such as **[this one](https://www.amazon.com/s?k=iphone)** with an `outputschema` parameter that will retrieve the **name, thumbnail, link and price** of the products
   - click the **save** button, it will generate a saved request that you can call like that: **GET - https://api.wintr.com/savedrequest/SAVED_REQUEST_NAME?apikey=WINTR_API_KEY**
   - your application can now scrape the products **name, thumbnail, link and price** of the **targetted Amazon page** like that:
