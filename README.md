@@ -65,7 +65,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Geolocated request**
 
 ```js
@@ -92,7 +91,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Custom referer**
 
 ```js
@@ -117,7 +115,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Custom useragent**
 
 ```js
@@ -142,7 +139,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Custom headers**
 
 ```js
@@ -170,7 +166,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Custom method**
 
 ```js
@@ -199,7 +194,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **HTTP authentication**
 
 ```js
@@ -227,7 +221,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Scrape Javascript rendered webpage**
 
 ```js
@@ -252,7 +245,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Scrape Javascript rendered webpage rendering only the DOM**
 (should fasten the request but some part of the page might not be loaded)
 
@@ -279,7 +271,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Scrape Javascript rendered webpage including external assets**
 (load all page assets including ads but might slow down the request)
 
@@ -306,7 +297,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Scrape Javascript rendered webpage & wait 5 seconds**
 (15 seconds max)
 
@@ -359,7 +349,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Scrape Javascript rendered webpage with custom cookies**
 (possible values: `name`, `value`, `domain`, `path`, `expires`, `size`, `httpOnly`, `secure`, `session`, `sameSite`)
 
@@ -390,7 +379,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Residential proxy**
 
 ```js
@@ -415,7 +403,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Session across multiple requests**
 (sessions lasts for **120 seconds**, if you want to define the geolocation of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
 
