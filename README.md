@@ -11,7 +11,12 @@
   - Embedded HTML parsing system (returns a JSON object containing the data you need)
   - Geolocated datacenter & residential rotating proxies
   - Sessions (keep the same ip address across multiple requests)
-  - Saved requests (create skeleton requests with predefined HTML output schemas and override variables such as the target URL directly from your app. If the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)  
+  - Saved requests (create skeleton requests with predefined HTML output schemas and override variables such as the target URL directly from your app. If the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)
+
+### Production examples 
+
+  - Check out our curated list of example to scrape from XXX, XXX, XXX, and many more in our [examples section](https://github.com/wintrdotcom/wintrAPI/todo)
+  - If you are already familiar with WINTR saved requests check our request files to scrape from XXX, XXX, XXX and many more in the [skeletons section](https://github.com/wintrdotcom/wintrAPI/todo)
 
 &nbsp;
 ### Scraping endpoint
