@@ -254,7 +254,7 @@ axios(options)
 
 &nbsp;
 **Scrape Javascript rendered webpage rendering only the DOM**
-*(should fasten the request but some part of the page might not be loaded)*
+(should fasten the request but some part of the page might not be loaded)
 
 ```js
 const axios = require('axios')
@@ -281,7 +281,7 @@ axios(options)
 
 &nbsp;
 **Scrape Javascript rendered webpage including external assets**
-*load all page assets including ads but might slow down the request*
+(load all page assets including ads but might slow down the request)
 
 ```js
 const axios = require('axios')
@@ -308,7 +308,7 @@ axios(options)
 
 &nbsp;
 **Scrape Javascript rendered webpage & wait 5 seconds**
-*15 seconds max*
+(15 seconds max)
 
 ```js
 const axios = require('axios')
@@ -335,7 +335,7 @@ axios(options)
 
 &nbsp;
 **Scrape Javascript rendered webpage & wait for element to load**
-*15 seconds timeout max*
+(15 seconds timeout)
 
 ```js
 const axios = require('axios')
@@ -362,7 +362,7 @@ axios(options)
 
 &nbsp;
 **Scrape Javascript rendered webpage with custom cookies**
-*possible values: `name`, `value`, `domain`, `path`, `expires`, `size`, `httpOnly`, `secure`, `session`, `sameSite`*
+(possible values: `name`, `value`, `domain`, `path`, `expires`, `size`, `httpOnly`, `secure`, `session`, `sameSite`)
 
 ```js
 const axios = require('axios')
@@ -418,7 +418,7 @@ axios(options)
 
 &nbsp;
 **Session across multiple requests**
-*sessions lasts for **120 seconds**, if you want to define the geolocation of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.*
+(sessions lasts for **120 seconds**, if you want to define the geolocation of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
 
 ```js
 const axios = require('axios')
@@ -467,7 +467,7 @@ axios(options)
   - The parsing process **is made in the order** you set the `modifier (array)` and `replacer (array)` elements in your `outputschema (object)`
   - each modification or replacement will be done **in the order of the provided** `(arrays)`
 
-*this example is **getting all the page link anchors**, replacing the linebreaks `\n` on them, **trimming them** and **turning them to uppercase***
+**this example is getting all the page link anchors, replacing the linebreaks `\n` on them, trimming them and turning them to uppercase**
 
 ```js
 const axios = require('axios')
@@ -516,7 +516,7 @@ axios(options)
 &nbsp;
 ### Next level: saved requests!
 
-*Imagine that you are **scraping Amazon products** for your website and that you plan to **get income from affilation**, you will need to watch out for Amazon\'s product page **HTML structure changes**. the best practice is to combine **HTML parsing** and **saved request** features for a 99.99% uptime scraping system.*
+Imagine that you are **scraping Amazon products** for your website and that you plan to **get income from affilation**, you will need to watch out for Amazon\'s product page **HTML structure changes**. the best practice is to combine **HTML parsing** and **saved request** features for a 99.99% uptime scraping system.
   - **sign-in** to your WINTR dashboard querybuilder **[in here](https://www.wintr.com/)**
   - **create the Amazon scraping request** on a product list page such as **[this one](https://www.amazon.com/s?k=iphone)** with an `outputschema` parameter that will retrieve the **name, thumbnail, link and price** of the products
   - click the **save** button, it will generate a saved request that you can call like that: **GET - https://api.wintr.com/savedrequest/SAVED_REQUEST_NAME?apikey=WINTR_API_KEY**
