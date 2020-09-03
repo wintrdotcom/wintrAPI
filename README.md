@@ -10,7 +10,7 @@
   - Javascript rendered websites scraping (including loading and rendering parameters)
   - Embedded HTML parsing system (returns a JSON object containing the data you need)
   - Geolocated datacenter & residential rotating proxies
-  - Sessions (keep the same ip address accross multiple requests)
+  - Sessions (keep the same ip address across multiple requests)
   - Saved requests (create skeleton requests with predefined HTML output schemas and override variables such as the target URL directly from your app. If the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)  
 
 &nbsp;
@@ -437,7 +437,7 @@ axios(options)
       - `group (string)`: the main **CSS selector**
       - `data (object)`: the **data structure**
     - the `data (object)` child object(s) **must contain those keys**:
-      - `selector (string)`: the child **CSS selector**
+      - `selector (string)`: **CSS selector** of the element itself or one of it\'s childs
       - `attr (string)`: the HTML attribute or **"*html*"** or **"*text*"**
       - and optionally those keys:
           - `modifier (array)`: a list of **modification to apply** to the data
