@@ -333,7 +333,6 @@ axios(options)
 })
 ```
 
-&nbsp;
 **Scrape Javascript rendered webpage & wait for element to load**
 (15 seconds timeout)
 
