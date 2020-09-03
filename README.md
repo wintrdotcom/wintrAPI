@@ -7,11 +7,11 @@
 ### Features
 
   - Request forging (method, body, headers, referer, useragent, authentication, cookies)
-  - Javascript rendered websites scraping (with loading and rendering tweaking)
-  - Embedded HTML parsing system (get a JSON object structured like you defined and containing the data that you need only)
+  - Javascript rendered websites scraping (including loading and rendering parameters)
+  - Embedded HTML parsing system (returns a JSON object containing the data you need)
   - Geolocated datacenter & residential rotating proxies
-  - Sessions (keep the same ip address within multiple requests)
-  - Saved requests (create skeleton requests with predefined HTML output schemas and override the scraping variables such as the target URL directly from your app, if the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)  
+  - Sessions (keep the same ip address accross multiple requests)
+  - Saved requests (create skeleton requests with predefined HTML output schemas and override variables such as the target URL directly from your app. If the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)  
 
 &nbsp;
 ### Scraping endpoint
