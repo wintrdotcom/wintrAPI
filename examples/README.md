@@ -7,14 +7,13 @@
 ### Popular websites examples
 
   - Amazon
-    - xxx
-    - yyy
-    - zzz
+    - [Extract product list from Amazon search URL](https://www.wintr.com/)
+    - [Extract product list from Amazon seller URL](https://www.wintr.com/)
+    - [Extract product details from Amazon product URL](https://www.wintr.com/)
   - Ebay
-    - xxx
-    - yyy
-    - zzz
+    - [Extract product list from Ebay search URL](https://www.wintr.com/)
+    - [Extract product list from Ebay seller URL](https://www.wintr.com/)
+    - [Extract product details from Ebay product URL](https://www.wintr.com/)
   - Zalando
-    - xxx
-    - yyy
-    - zzz
+    - [Extract product list from Zalando search URL](https://www.wintr.com/)
+    - [Extract product details from Zalando product URL](https://www.wintr.com/)
