@@ -14,7 +14,7 @@
   - Saved requests (create skeleton requests with predefined HTML output schemas and override the scraping variables such as the target URL directly from your app, if the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)  
 
 &nbsp;
-#### Scraping endpoint
+### Scraping endpoint
 
 ```bash
 POST - https://api.wintr.com/fetch
@@ -41,7 +41,7 @@ POST - https://api.wintr.com/fetch
 | outputschema | `object` | A flexible JSON output schema to order the data in the way you wan't to get it | [see examples](#html-parsing) | * (default=null) |
 
 &nbsp;
-#### Data scraping
+### Data scraping
 
 **Scrape a webpage**
 ```js
@@ -444,7 +444,7 @@ axios(options)
 ```
 
 &nbsp;
-#### HTML parsing
+### HTML parsing
 
   - if you want to parse the HTML content the `outputschema (object)` should respect certain conditions:
     - the `outputschema (object)` child object(s) **can only contain those keys**:
@@ -514,7 +514,7 @@ axios(options)
 ```
 
 &nbsp;
-#### Next level: saved requests!
+### Next level: saved requests!
 
 *Imagine that you are **scraping Amazon products** for your website and that you plan to **get income from affilation**, you will need to watch out for Amazon\'s product page **HTML structure changes**. the best practice is to combine **HTML parsing** and **saved request** features for a 99.99% uptime scraping system.*
   - **sign-in** to your WINTR dashboard querybuilder **[in here](https://www.wintr.com/)**
@@ -548,7 +548,7 @@ axios('https://api.wintr.com/savedrequest/SAVED_REQUEST_NAME?apikey=WINTR_API_KE
   - following these steps, all you have to do is to **setup an alert** if the data returned by your saved request misses the **name, thumbnail, link or price** and modify the output schema of your saved request in the WINTR dashboard if Amazon changed it's result page structure. this allows you to **NEVER EDIT YOUR PROGRAM AGAIN AND ENJOY 99.99% UPTIME!**
  
 &nbsp;
-#### Additional info
+### Additional info
 
   - the maximum scrapable document size is set to **10mb**
   - the timeout is set to **60 seconds** for each try
