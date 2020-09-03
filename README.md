@@ -254,7 +254,7 @@ axios(options)
 
 &nbsp;
 **Scrape Javascript rendered webpage rendering only the DOM**
-*should fasten the request but some part of the page might not be loaded*
+*(should fasten the request but some part of the page might not be loaded)*
 
 ```js
 const axios = require('axios')
