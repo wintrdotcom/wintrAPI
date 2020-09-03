@@ -16,7 +16,7 @@
 ### Production examples 
 
   - Check out our curated list of example to scrape from **Amazon**, **Ebay**, **Zalando**, and many more in our [examples section](https://github.com/wintrdotcom/wintrAPI/todo)
-  - If you are already familiar with WINTR saved requests check our request files to scrape from **Amazon**, **Ebay**, **Zalando** and many more in the [skeletons section](https://github.com/wintrdotcom/wintrAPI/todo)
+  - If you are already familiar with WINTR saved requests check our request files to scrape from **Amazon**, **Ebay**, **Zalando** and many more in the [saved requests section](https://github.com/wintrdotcom/wintrAPI/todo)
 
 &nbsp;
 ### Scraping endpoint
