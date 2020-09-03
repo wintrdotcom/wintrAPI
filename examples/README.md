@@ -16,8 +16,8 @@
     - [Extract listings from Craiglist search URL](https://www.wintr.com/)
     - [Extract listing details from Craiglist listing URL](https://www.wintr.com/)
   - **Aliexpress**
-    - [Extract listings from Aliexpress search URL](https://www.wintr.com/)
-    - [Extract listing details from Aliexpress listing URL](https://www.wintr.com/)
+    - [Extract product list from Aliexpress search URL](https://www.wintr.com/)
+    - [Extract product details from Aliexpress product URL](https://www.wintr.com/)
   - **Walmart**
     - [Extract product list from Walmart search URL](https://www.wintr.com/)
     - [Extract product details from Walmart product URL](https://www.wintr.com/)
