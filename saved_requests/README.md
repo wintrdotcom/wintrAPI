@@ -2,7 +2,7 @@
 
 [![WINTR Web scraping API](https://www.wintr.com/app/template/favicon.png)](https://www.wintr.com)
 
-> **Import those prebuilt requests into your [WINTR dashboard](https://www.wintr.com/dashboard-querybuilder) to start scraping.** ***(those examples are for educational purposes only, do not forget that you need the consent from any editor to scrape it's content)*** 
+> **Import those prebuilt requests into your [WINTR dashboard](https://www.wintr.com/dashboard-querybuilder) to start scraping.** ***(those examples are for educational purpose only, do not forget that you need the consent from any editor to scrape it's content)*** 
 
 ### Popular websites examples
 
