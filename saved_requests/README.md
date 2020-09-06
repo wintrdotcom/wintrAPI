@@ -1,4 +1,4 @@
-# WINTR API POPULAR WEBSITES PREBUILT REQUESTS
+# WINTR API - POPULAR WEBSITES PREBUILT REQUESTS
 
 [![WINTR Web scraping API](https://www.wintr.com/app/template/favicon.png)](https://www.wintr.com)
 
