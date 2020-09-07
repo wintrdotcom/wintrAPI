@@ -4,6 +4,8 @@
 
 > **To get a free WINTR API key, please create an account [in here](https://www.wintr.com) and get to your [account page](https://www.wintr.com/dashboard-account)** ***(those examples are for educational purpose only, do not forget that you need the consent from any editor to scrape it's content)*** 
 
+if you are familiar with saved requests, please check the [saved requests section](https://github.com/wintrdotcom/wintrAPI/tree/master/saved_requests)
+
 ### Popular websites examples
 
   - **Amazon**
