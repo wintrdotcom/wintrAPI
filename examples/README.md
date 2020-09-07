@@ -16,7 +16,7 @@
     - [Extract listing from Craiglist search URL](https://gist.github.com/wintrdotcom/4f93750b25d06f7558fc180f83118c8c)
     - [Extract listing details from Craiglist listing URL](https://gist.github.com/wintrdotcom/b49b914c7e70be7fb3a78e8d3856eb02)
   - **Aliexpress**
-    - [Extract product scripts from Aliexpress search URL](https://gist.github.com/wintrdotcom/d65f342dd1fe00432ed9f7865824715d)
+    - [Extract product list from Aliexpress search URL](https://gist.github.com/wintrdotcom/d65f342dd1fe00432ed9f7865824715d)
     - [Extract product details from Aliexpress product URL](https://gist.github.com/wintrdotcom/3b2ac3baa9fb74fd88f1b6526655a707)
   - **Walmart**
     - [Extract product list from Walmart search URL](https://gist.github.com/wintrdotcom/a4f7b98bd0c08b9608fbaccf19a9e546)
