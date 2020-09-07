@@ -4,6 +4,8 @@
 
 > **Import those prebuilt requests into your [WINTR dashboard](https://www.wintr.com/dashboard-querybuilder) to start scraping.** ***(those examples are for educational purpose only, do not forget that you need the consent from any editor to scrape it's content)*** 
 
+if you are not familiar with saved requests, please start by the [examples section](https://github.com/wintrdotcom/wintrAPI/tree/master/examples)
+
 ### Popular websites examples
 
   - **Amazon**
