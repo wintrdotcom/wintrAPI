@@ -4,6 +4,31 @@
 
 > **WINTR is a free and easy to use web scraping API that allows you to scrape any webpage and to parse it's HTML content without dealing with proxies, IP rotation, headless browsers and captchas. Create an account [in here](https://www.wintr.com) to get started**
 
+### Table of Contents
+
+  - [Features](#todo)
+  - [Options](#todo)
+  - [Examples](#todo)
+    - [Scrape a webpage](#todo)
+    - [Geolocated request](#todo)
+    - [Custom referer](#todo)
+    - [Custom useragent](#todo)
+    - [Custom headers](#todo)
+    - [Custom method](#todo)
+    - [HTTP authentication](#todo)
+    - [Scrape Javascript rendered webpage](#todo)
+    - [Scrape Javascript rendered webpage rendering only the DOM](#todo)
+    - [Scrape Javascript rendered webpage including external assets](#todo)
+    - [Scrape Javascript rendered webpage & wait 5 seconds](#todo)
+    - [Scrape Javascript rendered webpage & wait for element to load](#todo)
+    - [Scrape Javascript rendered webpage with custom cookies](#todo)
+    - [Residential proxy](#todo)
+    - [Session across multiple requests](#todo)
+  - [HTML parsing](#todo)
+  - [Production examples (Amazon, eBay, Zalando, etc)](#todo)
+  - [Next level: saved requests](#todo)
+  - [Additional info](#todo)
+
 ### Features
 
   - Request forging (method, body, headers, referer, useragent, authentication, cookies)
@@ -13,13 +38,8 @@
   - Sessions (keep the same ip address across multiple requests)
   - Saved requests (create skeleton requests with predefined HTML output schemas and override variables such as the target URL directly from your app. If the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)
 
-### Production examples 
-
-  - Check out our curated list of example to scrape from **Amazon**, **Ebay**, **Zalando**, and many more in our [examples section](https://github.com/wintrdotcom/wintrAPI/tree/master/examples)
-  - If you are already familiar with WINTR saved requests check our request files to scrape from **Amazon**, **Ebay**, **Zalando** and many more in the [saved requests section](https://github.com/wintrdotcom/wintrAPI/tree/master/saved_requests)
-
 &nbsp;
-### Scraping endpoint
+### Options
 
 ```bash
 POST - https://api.wintr.com/fetch
@@ -46,9 +66,9 @@ POST - https://api.wintr.com/fetch
 | outputschema | `object` | A flexible JSON output schema to order the data in the way you wan't to get it | [see examples](#html-parsing) | * (default=null) |
 
 &nbsp;
-### Data scraping
+### Examples
 
-**Scrape a webpage**
+#### Scrape a webpage
 ```js
 const axios = require('axios')
 const options = {
@@ -70,7 +90,7 @@ axios(options)
 })
 ```
 
-**Geolocated request**
+#### Geolocated request
 
 ```js
 const axios = require('axios')
@@ -96,7 +116,7 @@ axios(options)
 })
 ```
 
-**Custom referer**
+#### Custom referer
 
 ```js
 const axios = require('axios')
@@ -120,7 +140,7 @@ axios(options)
 })
 ```
 
-**Custom useragent**
+#### Custom useragent
 
 ```js
 const axios = require('axios')
@@ -144,7 +164,7 @@ axios(options)
 })
 ```
 
-**Custom headers**
+#### Custom headers
 
 ```js
 const axios = require('axios')
@@ -171,7 +191,7 @@ axios(options)
 })
 ```
 
-**Custom method**
+#### Custom method
 
 ```js
 const axios = require('axios')
@@ -199,7 +219,7 @@ axios(options)
 })
 ```
 
-**HTTP authentication**
+#### HTTP authentication
 
 ```js
 const axios = require('axios')
@@ -226,7 +246,7 @@ axios(options)
 })
 ```
 
-**Scrape Javascript rendered webpage**
+#### Scrape Javascript rendered webpage
 
 ```js
 const axios = require('axios')
@@ -250,7 +270,7 @@ axios(options)
 })
 ```
 
-**Scrape Javascript rendered webpage rendering only the DOM**
+#### Scrape Javascript rendered webpage rendering only the DOM
 (should fasten the request but some part of the page might not be loaded)
 
 ```js
@@ -276,7 +296,7 @@ axios(options)
 })
 ```
 
-**Scrape Javascript rendered webpage including external assets**
+#### Scrape Javascript rendered webpage including external assets
 (load all page assets including ads but might slow down the request)
 
 ```js
@@ -302,7 +322,7 @@ axios(options)
 })
 ```
 
-**Scrape Javascript rendered webpage & wait 5 seconds**
+#### Scrape Javascript rendered webpage & wait 5 seconds
 (15 seconds max)
 
 ```js
@@ -328,7 +348,7 @@ axios(options)
 })
 ```
 
-**Scrape Javascript rendered webpage & wait for element to load**
+#### Scrape Javascript rendered webpage & wait for element to load
 (15 seconds timeout)
 
 ```js
@@ -354,7 +374,7 @@ axios(options)
 })
 ```
 
-**Scrape Javascript rendered webpage with custom cookies**
+#### Scrape Javascript rendered webpage with custom cookies
 (possible values: `name`, `value`, `domain`, `path`, `expires`, `size`, `httpOnly`, `secure`, `session`, `sameSite`)
 
 ```js
@@ -384,7 +404,7 @@ axios(options)
 })
 ```
 
-**Residential proxy**
+#### Residential proxy
 
 ```js
 const axios = require('axios')
@@ -408,7 +428,7 @@ axios(options)
 })
 ```
 
-**Session across multiple requests**
+#### Session across multiple requests
 (sessions lasts for **120 seconds**, if you want to define the geolocation of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
 
 ```js
@@ -503,6 +523,12 @@ axios(options)
     console.error(err)
 })
 ```
+
+&nbsp;
+### Production examples 
+
+  - Check out our curated list of example to scrape from **Amazon**, **Ebay**, **Zalando**, and many more in our [examples section](https://github.com/wintrdotcom/wintrAPI/tree/master/examples)
+  - If you are already familiar with WINTR saved requests check our request files to scrape from **Amazon**, **Ebay**, **Zalando** and many more in the [saved requests section](https://github.com/wintrdotcom/wintrAPI/tree/master/saved_requests)
 
 &nbsp;
 ### Next level: saved requests!
