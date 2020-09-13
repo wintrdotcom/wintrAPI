@@ -29,3 +29,5 @@ if you are not familiar with saved requests, please start by the [examples secti
   - **Leboncoin**
     - [Extract listing from Leboncoin search URL](https://gist.github.com/wintrdotcom/3614b125647de01c76290f3022b49932)
     - [Extract listing details from Leboncoin listing URL](https://gist.github.com/wintrdotcom/76afd218e65ee1f2412e3f454dc71f43)
+  - **Any website**
+    - [Extract the metadata of any webpage](https://gist.github.com/wintrdotcom/0073e58be8fa3e49ec9ac40f5577caa8)
