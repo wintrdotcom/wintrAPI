@@ -29,3 +29,5 @@ if you are familiar with saved requests, please check the [saved requests sectio
   - **Leboncoin**
     - [Extract listing from Leboncoin search URL](https://gist.github.com/wintrdotcom/2b874890f778d82236acf88dee775748)
     - [Extract listing details from Leboncoin listing URL](https://gist.github.com/wintrdotcom/f9e9d43bacc12e9ae19a820e2365065f)
+  - **Any website**
+    - [Extract the metadata of any webpage](https://gist.github.com/wintrdotcom/f74ff118ec5d6d0c8106ff6a99e9d500)
