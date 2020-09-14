@@ -10,7 +10,7 @@
   - [Options](#options)
   - [Examples](#examples)
     - [Scrape a webpage](#scrape-a-webpage)
-    - [Geolocated request](#geolocated-request)
+    - [Geo-located request](#geo-located-request)
     - [Custom referer](#custom-referer)
     - [Custom useragent](#custom-useragent)
     - [Custom headers](#custom-headers)
@@ -34,7 +34,7 @@
   - Request forging (method, body, headers, referer, useragent, authentication, cookies)
   - Javascript rendered websites scraping (including loading and rendering parameters)
   - Embedded HTML parsing system (returns a JSON object containing the data you need)
-  - Geolocated datacenter & residential rotating proxies
+  - Geo-located datacenter & residential rotating proxies
   - Sessions (keep the same ip address across multiple requests)
   - Saved requests (create skeleton requests with predefined HTML output schemas and override variables such as the target URL directly from your app. If the target website structure changes, no need to modify your code, just edit the output schema in your dashboard and your app will start scraping again!)
 
@@ -90,7 +90,7 @@ axios(options)
 })
 ```
 
-#### Geolocated request
+#### Geo-located request
 
 ```js
 const axios = require('axios')
@@ -429,7 +429,7 @@ axios(options)
 ```
 
 #### Session across multiple requests
-(sessions lasts for **120 seconds**, if you want to define the geolocation of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
+(sessions lasts for **120 seconds**, if you want to define the geo-location of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
 
 ```js
 const axios = require('axios')
