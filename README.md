@@ -2,7 +2,7 @@
 
 [![WINTR Web scraping API](https://www.wintr.com/app/template/favicon.png)](https://www.wintr.com)
 
-> **WINTR is a free and easy to use web scraping API that allows you to scrape any webpage and to parse it's HTML content without dealing with proxies, IP rotation, headless browsers and captchas. Create an account [in here](https://www.wintr.com) to get started**
+> **WINTR is a free and easy to use web scraping API that allows you to scrape any webpage and to parse its HTML content without dealing with proxies, IP rotation, headless browsers and captchas. Create an account [in here](https://www.wintr.com) to get started**
 
 ### Table of Contents
 
@@ -562,7 +562,7 @@ axios('https://api.wintr.com/savedrequest/SAVED_REQUEST_NAME?apikey=WINTR_API_KE
     console.error(err)
 })
 ```
-  - following these steps, all you have to do is to **setup an alert** if the data returned by your saved request misses the **name, thumbnail, link or price** and modify the output schema of your saved request in the WINTR dashboard if Amazon changed it's result page structure. this allows you to **NEVER EDIT YOUR PROGRAM AGAIN AND ENJOY 99.99% UPTIME!**
+  - following these steps, all you have to do is to **setup an alert** if the data returned by your saved request misses the **name, thumbnail, link or price** and modify the output schema of your saved request in the WINTR dashboard if Amazon changed its result page structure. this allows you to **NEVER EDIT YOUR PROGRAM AGAIN AND ENJOY 99.99% UPTIME!**
  
 &nbsp;
 ### Additional info
