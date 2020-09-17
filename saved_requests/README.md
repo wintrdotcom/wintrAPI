@@ -14,9 +14,9 @@ if you are not familiar with saved requests, please start by the [examples secti
   - **Ebay**
     - [Extract product list from Ebay search URL](https://gist.github.com/wintrdotcom/37dfe620199dda94d09fec60ce933329)
     - [Extract product details from Ebay product URL](https://gist.github.com/wintrdotcom/b6750b589f6eb3fcfd5503ddf960a287)
-  - **Craiglist**
-    - [Extract listing from Craiglist search URL](https://gist.github.com/wintrdotcom/4768d3deb3196c61ff5317d57445a360)
-    - [Extract listing details from Craiglist listing URL](https://gist.github.com/wintrdotcom/eabe1d66615bf8a3637bbad502100a62)
+  - **Craigslist**
+    - [Extract listing from Craigslist search URL](https://gist.github.com/wintrdotcom/4768d3deb3196c61ff5317d57445a360)
+    - [Extract listing details from Craigslist listing URL](https://gist.github.com/wintrdotcom/eabe1d66615bf8a3637bbad502100a62)
   - **Aliexpress**
     - [Extract product scripts from Aliexpress search URL](https://gist.github.com/wintrdotcom/a5187e3c3ba08b319fff7c51aa3a5929)
     - [Extract product details from Aliexpress product URL](https://gist.github.com/wintrdotcom/61ddef913534aa1fdb9ecae86b840be5)
