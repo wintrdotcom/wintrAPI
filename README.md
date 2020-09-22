@@ -431,7 +431,9 @@ axios(options)
 
 #### Session across multiple requests
 (sessions lasts for **120 seconds**, if you want to define the geo-location of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
+
 [video tutorial](https://www.youtube.com/watch?v=UENq57dsJjg)
+
 ```js
 const axios = require('axios')
 const options = {
