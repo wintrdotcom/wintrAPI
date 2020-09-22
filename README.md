@@ -69,7 +69,7 @@ POST - https://api.wintr.com/fetch
 ### Examples
 
 #### Scrape a webpage
-[video tutorial](https://www.youtube.com/watch?v=krWF_qY66f4){:target="_blank"}
+[video tutorial](https://www.youtube.com/watch?v=krWF_qY66f4)
 ```js
 const axios = require('axios')
 const options = {
@@ -92,7 +92,7 @@ axios(options)
 ```
 
 #### Geo-located request
-
+[video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
 const options = {
@@ -118,7 +118,7 @@ axios(options)
 ```
 
 #### Custom referer
-
+[video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
 const options = {
@@ -142,7 +142,7 @@ axios(options)
 ```
 
 #### Custom useragent
-
+[video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
 const options = {
@@ -166,7 +166,7 @@ axios(options)
 ```
 
 #### Custom headers
-
+[video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
 const options = {
@@ -193,7 +193,7 @@ axios(options)
 ```
 
 #### Custom method
-
+[video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
 const options = {
@@ -221,7 +221,7 @@ axios(options)
 ```
 
 #### HTTP authentication
-
+[video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
 const options = {
@@ -248,7 +248,7 @@ axios(options)
 ```
 
 #### Scrape Javascript rendered webpage
-
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
 const options = {
@@ -273,7 +273,7 @@ axios(options)
 
 #### Scrape Javascript rendered webpage rendering only the DOM
 (should fasten the request but some part of the page might not be loaded)
-
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
 const options = {
@@ -299,7 +299,7 @@ axios(options)
 
 #### Scrape Javascript rendered webpage including external assets
 (load all page assets including ads but might slow down the request)
-
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
 const options = {
@@ -325,7 +325,7 @@ axios(options)
 
 #### Scrape Javascript rendered webpage & wait 5 seconds
 (15 seconds max)
-
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
 const options = {
@@ -351,7 +351,7 @@ axios(options)
 
 #### Scrape Javascript rendered webpage & wait for element to load
 (15 seconds timeout)
-
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
 const options = {
@@ -377,7 +377,7 @@ axios(options)
 
 #### Scrape Javascript rendered webpage with custom cookies
 (possible values: `name`, `value`, `domain`, `path`, `expires`, `size`, `httpOnly`, `secure`, `session`, `sameSite`)
-
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
 const options = {
@@ -406,7 +406,7 @@ axios(options)
 ```
 
 #### Residential proxy
-
+[video tutorial](https://www.youtube.com/watch?v=UENq57dsJjg)
 ```js
 const axios = require('axios')
 const options = {
@@ -431,7 +431,7 @@ axios(options)
 
 #### Session across multiple requests
 (sessions lasts for **120 seconds**, if you want to define the geo-location of your session, you have to set the `countrycodes (array)` parameter with one and only country code at the creation of the session, if you created the session before setting the `countrycodes (array)` parameter, you need to create a session with a **different name** to proceed or **wait the current one to expire** after 120 seconds.)
-
+[video tutorial](https://www.youtube.com/watch?v=UENq57dsJjg)
 ```js
 const axios = require('axios')
 const options = {
@@ -457,7 +457,7 @@ axios(options)
 
 &nbsp;
 ### HTML parsing
-
+[video tutorial](https://www.youtube.com/watch?v=dcZODhL2_ek)
   - if you want to parse the HTML content the `outputschema (object)` should respect certain conditions:
     - the `outputschema (object)` child object(s) **can only contain those keys**:
       - `group (string)`: the main **CSS selector**
@@ -533,7 +533,7 @@ axios(options)
 
 &nbsp;
 ### Next level: saved requests!
-
+[video tutorial](https://www.youtube.com/watch?v=FABvKdt-_28)
 Imagine that you are **scraping Amazon products** for your website and that you plan to **get income from affilation**, you will need to watch out for Amazon\'s product page **HTML structure changes**. the best practice is to combine **HTML parsing** and **saved request** features for a 99.99% uptime scraping system.
   - **sign-in** to your WINTR dashboard querybuilder **[in here](https://www.wintr.com/dashboard-querybuilder)**
   - **create the Amazon scraping request** on a product list page such as **[this one](https://www.amazon.com/s?k=iphone)** with an `outputschema` parameter that will retrieve the **name, thumbnail, link and price** of the products. (**[see an Amazon request example here](https://gist.github.com/wintrdotcom/e068a356fb725f9fd04baab5b5cd59e2)**)
