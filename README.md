@@ -69,7 +69,7 @@ POST - https://api.wintr.com/fetch
 ### Examples
 
 #### Scrape a webpage
-[video tutorial](https://www.youtube.com/watch?v=krWF_qY66f4)
+[video tutorial](https://www.youtube.com/watch?v=krWF_qY66f4){:target="_blank"}
 ```js
 const axios = require('axios')
 const options = {
