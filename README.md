@@ -586,7 +586,7 @@ axios('https://api.wintr.com/savedrequest/SAVED_REQUEST_NAME?apikey=WINTR_API_KE
     - `Accept-Language`
     - `Referer`
   - the prossible **status codes & errors** are:
-    - `200` - **OK** => Request completed succesfully
+    - `200` - **OK** => Request completed successfully
     - `400` - **BAD_REQUEST** => Incorrect parameter(s)
     - `402` - **PAYMENT_REQUIRED** => Invalid API key OR plan quota exceeded
     - `444` - **ERR_NO_RESPONSE** => Target URL responded with XXX error code
