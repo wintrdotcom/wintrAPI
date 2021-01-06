@@ -324,7 +324,7 @@ axios(options)
 ```
 
 #### Scrape Javascript rendered webpage & wait 5 seconds
-(15 seconds max)
+(60 seconds max and will not auto-retry in case of failure)
 [video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
@@ -350,7 +350,7 @@ axios(options)
 ```
 
 #### Scrape Javascript rendered webpage & wait for element to load
-(15 seconds timeout)
+(60 seconds timeout and will not auto-retry in case of failure)
 [video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
 const axios = require('axios')
