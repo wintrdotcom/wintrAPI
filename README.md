@@ -22,6 +22,7 @@
     - [Scrape Javascript rendered webpage & wait 5 seconds](#scrape-javascript-rendered-webpage--wait-5-seconds)
     - [Scrape Javascript rendered webpage & wait for element to load](#scrape-javascript-rendered-webpage--wait-for-element-to-load)
     - [Scrape Javascript rendered webpage with custom cookies](#scrape-javascript-rendered-webpage-with-custom-cookies)
+    - [Scrape Javascript rendered webpage and execute a Javascript code snippet](#scrape-javascript-rendered-and-execute-a-javascript-code-snippet)
     - [Residential proxy](#residential-proxy)
     - [Session across multiple requests](#session-across-multiple-requests)
   - [HTML parsing](#html-parsing)
@@ -62,7 +63,8 @@ POST - https://api.wintr.com/fetch
 | renderuntil | `string` | Stops page rendering after the provided event | `"domloaded"` | "domloaded"|"networkloaded" (default="networkloaded") - ONLY WORKS IF jsrender=true |
 | loadall | `bool` | Load all the page assets including ads, analytics, etc... | `true` | true,false (default=false) - ONLY WORKS IF jsrender=true |
 | waitfor | `number`/`string` | Wait for the provided amount of time (in seconds) or CSS selector to appear before returning the HTML data | `".navigation"` | * (default=null) - ONLY WORKS IF jsrender=true |
-| cookies | `narray` | Allows you to inject cookies on the browser instance that will scrape the page for you | `[ { "name": "cookie1", "value": "value1", "domain": ".example.com" } ]` | * (default=null) - ONLY WORKS IF jsrender=true |
+| cookies | `array` | Allows you to inject cookies on the browser instance that will scrape the page for you | `[ { "name": "cookie1", "value": "value1", "domain": ".example.com" } ]` | * (default=null) - ONLY WORKS IF jsrender=true |
+| executejs | `string` | Allows you to execute JS code in the browser instance (the code should be Base64 encoded) | `d2luZG93LnNjcm9sbFRvKDAsIGRvY3VtZW50LmJvZHkuc2Nyb2xsSGVpZ2h0KTs=` | * (default=null) - ONLY WORKS IF jsrender=true |
 | outputschema | `object` | A flexible JSON output schema to order the data in the way you wan't to get it | [see examples](#html-parsing) | * (default=null) |
 
 &nbsp;
@@ -392,6 +394,31 @@ const options = {
             'value': 'value1',
             'domain': '.example.com'
         }]
+    },
+    url: 'https://api.wintr.com/fetch'
+}
+
+axios(options)
+.then((result) => {
+    console.log(result)
+})
+.catch((err) => {
+    console.error(err)
+})
+```
+
+#### Scrape Javascript rendered webpage and execute a Javascript code snippet
+[video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
+```js
+const axios = require('axios')
+const options = {
+    method: 'post',
+    responseType: 'json',
+    data: {
+        url: 'TARGET_URL',
+        apikey: 'WINTR_API_KEY',
+        jsrender: true,
+        executejs: Buffer.from('window.scrollTo(0, document.body.scrollHeight);').toString('base64')
     },
     url: 'https://api.wintr.com/fetch'
 }
