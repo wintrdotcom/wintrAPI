@@ -64,7 +64,7 @@ POST - https://api.wintr.com/fetch
 | loadall | `bool` | Load all the page assets including ads, analytics, etc... | `true` | true,false (default=false) - ONLY WORKS IF jsrender=true |
 | waitfor | `number`/`string` | Wait for the provided amount of time (in seconds) or CSS selector to appear before returning the HTML data | `".navigation"` | * (default=null) - ONLY WORKS IF jsrender=true |
 | cookies | `array` | Allows you to inject cookies on the browser instance that will scrape the page for you | `[ { "name": "cookie1", "value": "value1", "domain": ".example.com" } ]` | * (default=null) - ONLY WORKS IF jsrender=true |
-| executejs | `string` | Allows you to execute JS code in the browser instance (the code should be Base64 encoded) | `d2luZG93LnNjcm9sbFRvKDAsIGRvY3VtZW50LmJvZHkuc2Nyb2xsSGVpZ2h0KTs=` | * (default=null) - ONLY WORKS IF jsrender=true |
+| executejs | `string` | Allows you to execute JS code in the browser instance (the code should be Base64 encoded) | `Y29uc29sZS5sb2coJ3Rlc3QnKTs=` | * (default=null) - ONLY WORKS IF jsrender=true |
 | outputschema | `object` | A flexible JSON output schema to order the data in the way you wan't to get it | [see examples](#html-parsing) | * (default=null) |
 
 &nbsp;
