@@ -22,7 +22,7 @@
     - [Scrape Javascript rendered webpage & wait 5 seconds](#scrape-javascript-rendered-webpage--wait-5-seconds)
     - [Scrape Javascript rendered webpage & wait for element to load](#scrape-javascript-rendered-webpage--wait-for-element-to-load)
     - [Scrape Javascript rendered webpage with custom cookies](#scrape-javascript-rendered-webpage-with-custom-cookies)
-    - [Scrape Javascript rendered webpage and execute a Javascript code snippet](#scrape-javascript-rendered-and-execute-a-javascript-code-snippet)
+    - [Scrape Javascript rendered webpage and execute a Javascript code snippet](#scrape-javascript-rendered-webpage-and-execute-a-javascript-code-snippet)
     - [Residential proxy](#residential-proxy)
     - [Session across multiple requests](#session-across-multiple-requests)
   - [HTML parsing](#html-parsing)
