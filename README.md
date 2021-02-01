@@ -410,7 +410,7 @@ axios(options)
 ```
 
 #### Scrape Javascript rendered webpage and send a form
-To take advantage of this feature, combine it with the "waitfor" parameter to wait for a CSS selector that is only rendered after the form has been sent!
+To take advantage of this feature, combine it with the [waitfor](#scrape-javascript-rendered-webpage--wait-for-element-to-load) parameter to wait for a CSS selector that is only rendered after the form has been sent!
 (sendform has a 15 seconds timeout and will not auto-retry in case of failure)
 [video tutorial](https://www.youtube.com/watch?v=7LpYWWjDmik)
 ```js
