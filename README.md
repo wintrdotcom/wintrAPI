@@ -198,7 +198,7 @@ axios(options)
 ```
 
 #### Custom method
-(IMPORTANT NOTE: you can use payload="\"NAME1\": \"VALUE1\", \"NAME2\": \"VALUE2\"" to send the data as an escaped string instead of a JSON object!)
+(IMPORTANT NOTE: you can use payload="\\\"NAME1\\\": \\\"VALUE1\\\", \\\"NAME2\\\": \\\"VALUE2\\\"" to send the data as an escaped string instead of a JSON object!)
 [video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
