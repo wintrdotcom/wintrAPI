@@ -59,6 +59,7 @@ POST - https://api.wintr.com/fetch
 | headers | `object` | Request headers | `{ "X-header1": "value1", "X-header2": "value2" }` | * (default=null) |
 | method | `string` | Request method | `"POST"` | "GET","PATCH","POST","PUT" (default="GET") |
 | body | `object` | Request input data | `{ "name1": "value1", "name2": "value2" }` | * (default=null) |
+| payload | `string` | Request input payload | `"\"name1\": \"value1\", \"name2\": \"value2\""` | * (default=null) |
 | auth | `object` | Request HTTP authentication | `{ "user": "user123", "pass": "password123" }` | * (default=null) |
 | jsrender | `bool` | If true, the Javascript code on the target webpage will be executed before returning the HTML data (useful to scrape Single Page Applications made with AngularJS for example) | `true` | true,false (default=false) - CONSUMES 10 API CREDITS (instead of 1) |
 | renderuntil | `string` | Stops page rendering after the provided event | `"domloaded"` | "domloaded"|"networkloaded" (default="networkloaded") - ONLY WORKS IF jsrender=true |
@@ -197,6 +198,7 @@ axios(options)
 ```
 
 #### Custom method
+(IMPORTANT NOTE: you can use payload="\"NAME1\": \"VALUE1\", \"NAME2\": \"VALUE2\"" to send the data as an escaped string instead of a JSON object!)
 [video tutorial](https://www.youtube.com/watch?v=39A8JQOvyJc)
 ```js
 const axios = require('axios')
