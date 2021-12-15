@@ -51,8 +51,8 @@ POST - https://api.wintr.com/fetch
 | ------ | ------ | ----------- | ------- | ----- |
 | url `*` | `string` | Target URL | `"https://api.wintr.com/test"` | * (default=null) |
 | apikey `*` | `string` | Your API key | `"5d6bf3bd36"` | * (default=null) |
-| countrycodes | `array` | An array of country codes to scrape the webpage from (the IP address used to scrape the page will be located in one of the provided countries) | `["uk", "fr"]` | "us","uk","de","nl","fr","es","it","cz","pl" (default=null) |
-| proxytype | `string` | The type of proxy you want to use for this request (residential IP addresses have a lower fail rate) | `"residential"` | "local","residential" (default="local") - CONSUMES 15 API CREDITS (instead of 1) |
+| countrycodes | `array` | An array of country codes to scrape the webpage from, it will only change your browsing headers (the IP address used to scrape the page will be located in one of the provided countries if you combine this otpion with `proxytype=residential`) | `["uk", "fr"]` | "us","uk","de","nl","fr","es","it","cz","pl" (default=null) |
+| proxytype | `string` | The type of proxy you want to use for this request (residential IP addresses have a lower fail rate) | `"residential"` | "local","external","premium","residential" (default="local") -  LOCAL CONSUMES 1 API CREDIT, EXTERNAL CONSUMES 10 API CREDITS, PREMIUM CONSUMES 15 API CREDITS, RESIDENTIAL CONSUMES 25 API CREDITS |
 | session | `string` | Define a session name an reuse it to keep the same IP address across multiple scraping requests | `"my_session"` | * (default=null) - ONLY WORKS IF proxytype="residential" |
 | referer | `string` | Request referer | `"https://www.google.com"` | * (default=null) |
 | useragent | `string` | Request user agent | `"Mozilla/5.0"` | * (default=null) |
